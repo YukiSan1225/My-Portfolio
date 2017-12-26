@@ -62,7 +62,7 @@
                 <div class="col-md-8 col-md-offset-2">
                 </div>
             </div>
-          <!--<a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a> -->
+        <!--  <a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a> -->
 
         </div>
        
@@ -83,17 +83,16 @@
             <!-- ./ Main Heading-->
             <div class="row main-low-margin text-center">
                 <div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <img class="img-circle" src="assets/img/team/team1.png" alt="">
+                    <img class="img-circle" src="assets/img/team/team1.jpg" alt="">
                     <h4><strong>Damien John Burks</strong> </h4>
                     <p>
                         <em>"Some are born great, some achieve greatness, and some have greatness thrust upon them." - William Shakespeare</em>
                     </p>
                     <p>
-                       <a href="https://www.facebook.com/YukiSan1225"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
-                       <!-- <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a> -->
+                        <a href="https://www.facebook.com/YukiSan1225"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+                        <a href="https://www.github.com/YukiSan1225"><i class="fa fa-github-square fa-2x color-github"></i></a>
                         <a href="https://plus.google.com/u/1/116765910657259242243"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
                         <a href="https://www.linkedin.com/in/damien-burks-445650a6"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
-                       <!-- <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a> -->
                     </p>
 
                 </div>
@@ -107,7 +106,7 @@
 			 and eventually a Cloud Engineer/Architect.
                     </p>
                     <p>
-                         When speaking in terms of extracurricular involvement, I am the President of CISSA (Cyber Internet Security Student Association), which is an organization
+                         When speaking in terms of extracurricular involvement, I am the President of TigerOPS, which is an organization
                          dedicated to the studies of networking and striving to get students certified. Those certifications,
 			 in which I am also studying for, are COMPTIA Net+, Sec+ and also the CCNA R&S/CCENT. Also, I am an active member of
 			 the FBI's chapter of Infragard here in Houston.
@@ -157,7 +156,7 @@
 						</video>
 					</div>
                 <div class="col-md-8 " data-scrollreveal="enter right and move 0px, wait 0.4s">
-                    <h4><strong class="color-red">OpenVPN Server</strong></h4>
+                    <h4><strong class="color-blue">OpenVPN Server</strong></h4>
                     <p>
                         This is an Ubuntu 16.04 Server with OpenSSH and also OpenVPN. This server has both custom 
                         made certificates for both clients and also for the VPN to operate properly. This VPN can
@@ -179,7 +178,7 @@
 							</video>
 						</div>
 					<div class="col-md-8 " data-scrollreveal="enter right and move 0px, wait 0.4s">
-						<h4><strong class="color-red">Port Scanner with GUI Interface</strong></h4>
+						<h4><strong class="color-blue">Port Scanner with GUI Interface</strong></h4>
 						<p>
 							We used knowledge of Python Fundamentals as well as the Tkinter and Sockets libraries in Python to construct a GUI interfaced port scanner. 
 							The scanner takes a target IP address while on a network and scans ports on the specified target in order to determine and output which ports are open and closed, 
@@ -223,12 +222,43 @@
                        
                     </div>
                     <div class="col-md-6  " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                        <h3>Drop a Line or Hire Me? </h3>
+                        <h3>Questions/Comments?</h3>
                         <hr />
-                        <form>
-							<p>If you have any questions, please do not hesitate to call me or email me. To email me,
-							please click the button below!</p>
-							<a href="mailto:dburksgtr@gmail.com"><button type="Email Me" class="btn btn-primary">Email Me!</button></a>
+                        <form action="mail_form.php" method="post">
+							<div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" name="firstName" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" name="lastName" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+								<div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" name="senderAddress" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" name="Subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 ">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="3"  name="Message" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" button type="submit" class="btn btn-primary"></button>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                     
